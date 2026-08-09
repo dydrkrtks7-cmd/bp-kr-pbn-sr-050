@@ -1,253 +1,254 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="bpaas-design-system" content="editorial-apple">
-    <meta name="bpaas-design-theme" content="kr-ivory-ink">
-    <title>염창 셔츠룸 초보 가이드 — 첫 방문 전 반드시 확인할 5가지 조건</title>
-    <meta name="description" content="염창 셔츠룸을 처음 이용하는 분들을 위한 날카로운 분석. 선택 기준, 예약 전 체크리스트, 상황별 적합성을 솔직하게 다룹니다.">
-    <meta name="keywords" content="염창 셔츠룸, 셔츠룸 이용법, 초보 가이드, 염창 셔츠룸 선택, 첫 방문 팁, 셔츠룸 조건 분석">
-    <link rel="canonical" href="https://yeomchang-shirts-note.nonhyeonnight.xyz/blog">
-    <meta property="og:title" content="염창 셔츠룸 초보 가이드 — 첫 방문 전 반드시 확인할 5가지 조건">
-    <meta property="og:description" content="염창 셔츠룸을 처음 이용하는 분들을 위한 날카로운 분석. 선택 기준, 예약 전 체크리스트, 상황별 적합성을 솔직하게 다룹니다.">
-    <style>
-        :root {
-            --color-bg: #FDFCF8;
-            --color-text: #1A1A1A;
-            --color-accent: #B58B5A;
-            --color-border: #E5E1D6;
-            --color-card-bg: #FFFFFF;
-            --color-muted: #6B6B6B;
-            --font-heading: 'Noto Serif KR', serif;
-            --font-body: 'Noto Sans KR', sans-serif;
-            --space-xs: 0.5rem;
-            --space-sm: 1rem;
-            --space-md: 1.5rem;
-            --space-lg: 2.5rem;
-            --space-xl: 4rem;
-            --radius-sm: 4px;
-            --radius-md: 8px;
-            --max-width: 1200px;
-            --transition: all 0.3s ease;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        body {
-            font-family: var(--font-body);
-            color: var(--color-text);
-            background-color: var(--color-bg);
-            line-height: 1.7;
-            -webkit-font-smoothing: antialiased;
-        }
-        .q-side-xsvg {
-            position: fixed;
-            top: 0;
-            right: 0;
-            width: 50px;
-            height: 100vh;
-            background: linear-gradient(135deg, var(--color-accent) 0%, #D4A373 100%);
-            opacity: 0.1;
-            z-index: -1;
-            pointer-events: none;
-        }
-        .r-img-g8hq {
-            position: relative;
-            width: 100%;
-            max-width: var(--max-width);
-            margin: 0 auto;
-            padding: var(--space-xl) var(--space-md);
-        }
-        .r-img-g8hq-overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(to bottom, rgba(253,252,248,0) 0%, var(--color-bg) 100%);
-            z-index: 1;
-        }
-        .r-img-g8hq-content {
-            position: relative;
-            z-index: 2;
-        }
-        .r-img-g8hq h1 {
-            font-family: var(--font-heading);
-            font-size: clamp(2rem, 5vw, 3.5rem);
-            font-weight: 700;
-            line-height: 1.2;
-            margin-bottom: var(--space-md);
-            color: var(--color-text);
-            letter-spacing: -0.02em;
-        }
-        .r-img-g8hq p {
-            font-size: 1.1rem;
-            color: var(--color-muted);
-            max-width: 700px;
-            margin-bottom: var(--space-lg);
-        }
-        .q-hero-a2jm {
-            padding: var(--space-lg) var(--space-md);
-            background-color: var(--color-card-bg);
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius-md);
-            margin-bottom: var(--space-xl);
-            box-shadow: 0 4px 20px rgba(0,0,0,0.03);
-        }
-        .q-hero-a2jm-inner {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: var(--space-lg);
-            align-items: center;
-        }
-        @media (max-width: 768px) {
-            .q-hero-a2jm-inner {
-                grid-template-columns: 1fr;
-            }
-        }
-        .q-hero-a2jm-logo {
-            width: 100%;
-            height: 200px;
-            background: var(--color-border);
-            border-radius: var(--radius-sm);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-family: var(--font-heading);
-            font-size: 1.5rem;
-            color: var(--color-muted);
-        }
-        .q-hero-a2jm-links {
-            display: flex;
-            gap: var(--space-sm);
-            margin-top: var(--space-md);
-        }
-        .q-hero-a2jm-links a {
-            display: inline-block;
-            padding: var(--space-xs) var(--space-sm);
-            background: var(--color-accent);
-            color: white;
-            text-decoration: none;
-            border-radius: var(--radius-sm);
-            font-size: 0.9rem;
-            font-weight: 500;
-            transition: var(--transition);
-        }
-        .q-hero-a2jm-links a:hover {
-            background: #1A1A1A;
-        }
-        .content-section {
-            max-width: 800px;
-            margin: 0 auto var(--space-xl);
-        }
-        .content-section h2 {
-            font-family: var(--font-heading);
-            font-size: 1.8rem;
-            margin-bottom: var(--space-sm);
-            color: var(--color-text);
-            border-left: 4px solid var(--color-accent);
-            padding-left: var(--space-sm);
-        }
-        .content-section p {
-            margin-bottom: var(--space-md);
-            font-size: 1.05rem;
-        }
-        .faq-item {
-            background: var(--color-card-bg);
-            border: 1px solid var(--color-border);
-            border-radius: var(--radius-md);
-            padding: var(--space-md);
-            margin-bottom: var(--space-sm);
-        }
-        .faq-item h3 {
-            font-size: 1.2rem;
-            margin-bottom: var(--space-xs);
-            color: var(--color-accent);
-        }
-        .footer-section {
-            max-width: var(--max-width);
-            margin: var(--space-xl) auto 0;
-            padding: var(--space-lg) var(--space-md);
-            border-top: 1px solid var(--color-border);
-            text-align: center;
-            color: var(--color-muted);
-            font-size: 0.9rem;
-        }
-    </style>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>염창 셔츠룸 초보 가이드 — 첫 방문 전 반드시 확인할 5가지 조건</title>
+ <meta name="description" content="염창 셔츠룸을 처음 이용하는 분들을 위한 날카로운 분석. 선택 기준, 예약 전 체크리스트, 상황별 적합성을 솔직하게 다룹니다.">
+ <meta name="keywords" content="염창 셔츠룸, 셔츠룸 이용법, 초보 가이드, 염창 셔츠룸 선택, 첫 방문 팁, 셔츠룸 조건 분석">
+ <link rel="canonical" href="https://yeomchang-shirts-note.nonhyeonnight.xyz/blog.html">
+ <meta property="og:title" content="염창 셔츠룸 초보 가이드 — 첫 방문 전 반드시 확인할 5가지 조건">
+ <meta property="og:description" content="염창 셔츠룸을 처음 이용하는 분들을 위한 날카로운 분석. 선택 기준, 예약 전 체크리스트, 상황별 적합성을 솔직하게 다룹니다.">
+ <style>
+ :root {
+ --color-bg: #FDFCF8;
+ --color-text: #1A1A1A;
+ --color-accent: #B58B5A;
+ --color-border: #E5E1D6;
+ --color-card-bg: #FFFFFF;
+ --color-muted: #6B6B6B;
+ --font-heading: 'Noto Serif KR', serif;
+ --font-body: 'Noto Sans KR', sans-serif;
+ --space-xs: 0.5rem;
+ --space-sm: 1rem;
+ --space-md: 1.5rem;
+ --space-lg: 2.5rem;
+ --space-xl: 4rem;
+ --radius-sm: 4px;
+ --radius-md: 8px;
+ --max-width: 1200px;
+ --transition: all 0.3s ease;
+ }
+ * {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ }
+ body {
+ font-family: var(--font-body);
+ color: var(--color-text);
+ background-color: var(--color-bg);
+ line-height: 1.7;
+ -webkit-font-smoothing: antialiased;
+ }
+ .q-side-xsvg {
+ position: fixed;
+ top: 0;
+ right: 0;
+ width: 50px;
+ height: 100vh;
+ background: linear-gradient(135deg, var(--color-accent) 0%, #D4A373 100%);
+ opacity: 0.1;
+ z-index: -1;
+ pointer-events: none;
+ }
+ .r-img-g8hq {
+ position: relative;
+ width: 100%;
+ max-width: var(--max-width);
+ margin: 0 auto;
+ padding: var(--space-xl) var(--space-md);
+ }
+ .r-img-g8hq-overlay {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ background: linear-gradient(to bottom, rgba(253,252,248,0) 0%, var(--color-bg) 100%);
+ z-index: 1;
+ }
+ .r-img-g8hq-content {
+ position: relative;
+ z-index: 2;
+ }
+ .r-img-g8hq h1 {
+ font-family: var(--font-heading);
+ font-size: clamp(2rem, 5vw, 3.5rem);
+ font-weight: 700;
+ line-height: 1.2;
+ margin-bottom: var(--space-md);
+ color: var(--color-text);
+ letter-spacing: -0.02em;
+ }
+ .r-img-g8hq p {
+ font-size: 1.1rem;
+ color: var(--color-muted);
+ max-width: 700px;
+ margin-bottom: var(--space-lg);
+ }
+ .q-hero-a2jm {
+ padding: var(--space-lg) var(--space-md);
+ background-color: var(--color-card-bg);
+ border: 1px solid var(--color-border);
+ border-radius: var(--radius-md);
+ margin-bottom: var(--space-xl);
+ box-shadow: 0 4px 20px rgba(0,0,0,0.03);
+ }
+ .q-hero-a2jm-inner {
+ display: grid;
+ grid-template-columns: 1fr 2fr;
+ gap: var(--space-lg);
+ align-items: center;
+ }
+ @media (max-width: 768px) {
+ .q-hero-a2jm-inner {
+ grid-template-columns: 1fr;
+ }
+ }
+ .q-hero-a2jm-logo {
+ width: 100%;
+ height: 200px;
+ background: var(--color-border);
+ border-radius: var(--radius-sm);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-family: var(--font-heading);
+ font-size: 1.5rem;
+ color: var(--color-muted);
+ }
+ .q-hero-a2jm-links {
+ display: flex;
+ gap: var(--space-sm);
+ margin-top: var(--space-md);
+ }
+ .q-hero-a2jm-links a {
+ display: inline-block;
+ padding: var(--space-xs) var(--space-sm);
+ background: var(--color-accent);
+ color: white;
+ text-decoration: none;
+ border-radius: var(--radius-sm);
+ font-size: 0.9rem;
+ font-weight: 500;
+ transition: var(--transition);
+ }
+ .q-hero-a2jm-links a:hover {
+ background: #1A1A1A;
+ }
+ .content-section {
+ max-width: 800px;
+ margin: 0 auto var(--space-xl);
+ }
+ .content-section h2 {
+ font-family: var(--font-heading);
+ font-size: 1.8rem;
+ margin-bottom: var(--space-sm);
+ color: var(--color-text);
+ border-left: 4px solid var(--color-accent);
+ padding-left: var(--space-sm);
+ }
+ .content-section p {
+ margin-bottom: var(--space-md);
+ font-size: 1.05rem;
+ }
+ .faq-item {
+ background: var(--color-card-bg);
+ border: 1px solid var(--color-border);
+ border-radius: var(--radius-md);
+ padding: var(--space-md);
+ margin-bottom: var(--space-sm);
+ }
+ .faq-item h3 {
+ font-size: 1.2rem;
+ margin-bottom: var(--space-xs);
+ color: var(--color-accent);
+ }
+ .footer-section {
+ max-width: var(--max-width);
+ margin: var(--space-xl) auto 0;
+ padding: var(--space-lg) var(--space-md);
+ border-top: 1px solid var(--color-border);
+ text-align: center;
+ color: var(--color-muted);
+ font-size: 0.9rem;
+ }
+ </style>
+  <meta property="og:url" content="https://yeomchang-shirts-note.nonhyeonnight.xyz/blog.html">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
 </head>
 <body>
-    <div class="q-side-xsvg"></div>
-    <main class="r-img-g8hq">
-        <div class="r-img-g8hq-overlay"></div>
-        <div class="r-img-g8hq-content">
-            <h1>염창 셔츠룸 초보 가이드 — 당신이 놓치고 있는 현실적인 조건들</h1>
-            <p>대부분의 초보는 화려한 마케팅에 속아 기본적인 선택 기준조차 놓칩니다. 이 가이드는 염창 셔츠룸을 처음 이용하는 당신에게, 광고가 말해주지 않는 날카로운 현실과 실질적인 기준을 제공합니다. 더 이상 무작정 방문하지 마세요.</p>
-        </div>
-    </main>
+ <div class="q-side-xsvg"></div>
+ <main class="r-img-g8hq">
+ <div class="r-img-g8hq-overlay"></div>
+ <div class="r-img-g8hq-content">
+ <h1>염창 셔츠룸 초보 가이드 — 당신이 놓치고 있는 현실적인 조건들</h1>
+ <p>대부분의 초보는 화려한 마케팅에 속아 기본적인 선택 기준조차 놓칩니다. 이 가이드는 염창 셔츠룸을 처음 이용하는 당신에게, 광고가 말해주지 않는 날카로운 현실과 실질적인 기준을 제공합니다. 더 이상 무작정 방문하지 마세요.</p>
+ </div>
+ </main>
 
-    <section class="q-hero-a2jm">
-        <div class="q-hero-a2jm-inner">
-            <div class="q-hero-a2jm-logo">셔츠룸 인사이트</div>
-            <div>
-                <h2 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: var(--space-sm);">첫 방문 전, 이 조건들을 반드시 확인하세요</h2>
-                <p style="color: var(--color-muted); margin-bottom: var(--space-md);">염창 셔츠룸은 개별 업장의 퀄리티 차이가 극명합니다. 아래 5가지는 당신의 경험을 결정하는 핵심 변수입니다. 무시하면 후회합니다.</p>
-                <div class="q-hero-a2jm-links">
-                    <a href="#condition1">1. 청결도</a>
-                    <a href="#condition2">2. 직원 태도</a>
-                    <a href="#condition3">3. 가격 투명성</a>
-                    <a href="#condition4">4. 예약 시스템</a>
-                    <a href="#condition5">5. 상황 적합성</a>
-                </div>
-            </div>
-        </div>
-    </section>
+ <section class="q-hero-a2jm">
+ <div class="q-hero-a2jm-inner">
+ <div class="q-hero-a2jm-logo">셔츠룸 인사이트</div>
+ <div>
+ <h2 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: var(--space-sm);">첫 방문 전, 이 조건들을 반드시 확인하세요</h2>
+ <p style="color: var(--color-muted); margin-bottom: var(--space-md);">염창 셔츠룸은 개별 업장의 퀄리티 차이가 극명합니다. 아래 5가지는 당신의 경험을 결정하는 핵심 변수입니다. 무시하면 후회합니다.</p>
+ <div class="q-hero-a2jm-links">
+ <a href="#condition1">1. 청결도</a>
+ <a href="#condition2">2. 직원 태도</a>
+ <a href="#condition3">3. 가격 투명성</a>
+ <a href="#condition4">4. 예약 시스템</a>
+ <a href="#condition5">5. 상황 적합성</a>
+ </div>
+ </div>
+ </div>
+ </section>
 
-    <section class="content-section" id="condition1">
-        <h2>1. 청결도 — 눈으로 보이지 않는 위생은 사기입니다</h2>
-        <p>많은 업장이 "고급 인테리어"를 강조하지만, 기본적인 위생 상태는 놓치기 쉽습니다. 초보는 분위기에 현혹되어 소파 패브릭의 얼룩이나 환기 상태를 간과합니다. <strong>염창 셔츠룸</strong>을 선택할 때, 반드시 구석구석 확인하세요. 당신의 건강은 마케팅 문구가 아닙니다.</p>
-    </section>
+ <section class="content-section" id="condition1">
+ <h2>1. 청결도 — 눈으로 보이지 않는 위생은 사기입니다</h2>
+ <p>많은 업장이 "고급 인테리어"를 강조하지만, 기본적인 위생 상태는 놓치기 쉽습니다. 초보는 분위기에 현혹되어 소파 패브릭의 얼룩이나 환기 상태를 간과합니다. <strong>염창 셔츠룸</strong>을 선택할 때, 반드시 구석구석 확인하세요. 당신의 건강은 마케팅 문구가 아닙니다.</p>
+ </section>
 
-    <section class="content-section" id="condition2">
-        <h2>2. 직원 태도 — 서비스의 본질은 인간 대 인간입니다</h2>
-        <p>"프로페셔널한 매니저"라는 문구에 속지 마세요. 실제 상호작용에서 직원의 태도는 경험의 80%를 차지합니다. 염창 지역 셔츠룸은 특성상 직원 이동이 잦아, 일관된 서비스를 보장하기 어렵습니다. <strong>예약 전, 리뷰가 아닌 직접 문의로 태도를 파악하세요.</strong> 정직한 업장은 솔직하게 답합니다.</p>
-    </section>
+ <section class="content-section" id="condition2">
+ <h2>2. 직원 태도 — 서비스의 본질은 인간 대 인간입니다</h2>
+ <p>"프로페셔널한 매니저"라는 문구에 속지 마세요. 실제 상호작용에서 직원의 태도는 경험의 80%를 차지합니다. 염창 지역 셔츠룸은 특성상 직원 이동이 잦아, 일관된 서비스를 보장하기 어렵습니다. <strong>예약 전, 리뷰가 아닌 직접 문의로 태도를 파악하세요.</strong> 정직한 업장은 솔직하게 답합니다.</p>
+ </section>
 
-    <section class="content-section" id="condition3">
-        <h2>3. 가격 투명성 — 숨겨진 비용은 배신의 시작</h2>
-        <p>"최저가" 광고를 보고 방문했다가 추가 비용에 당황한 경험이 있나요? 염창 셔츠룸의 가격 구조는 업장마다 천차만별입니다. 기본 이용료 외에 술, 시간 초과, 특수 요청 등이 비용으로 청구됩니다. <strong>반드시 전체 가격표를 요구하고, 모든 조건을 서면으로 확인하세요.</strong> 구두 약속은 신뢰할 수 없습니다.</p>
-    </section>
+ <section class="content-section" id="condition3">
+ <h2>3. 가격 투명성 — 숨겨진 비용은 배신의 시작</h2>
+ <p>"최저가" 광고를 보고 방문했다가 추가 비용에 당황한 경험이 있나요? 염창 셔츠룸의 가격 구조는 업장마다 천차만별입니다. 기본 이용료 외에 술, 시간 초과, 특수 요청 등이 비용으로 청구됩니다. <strong>반드시 전체 가격표를 요구하고, 모든 조건을 서면으로 확인하세요.</strong> 구두 약속은 신뢰할 수 없습니다.</p>
+ </section>
 
-    <section class="content-section" id="condition4">
-        <h2>4. 예약 시스템 — 체계 없이 운영되는 곳은 위험합니다</h2>
-        <p>전화 한 통으로 예약이 가능한 곳이 많지만, 이는 오히려 비체계적인 운영의 신호입니다. 제대로 된 <strong>염창 셔츠룸</strong>은 예약 시스템을 통해 인원 관리와 서비스 품질을 유지합니다. 예약 과정에서 응대가 불친절하거나 시스템이 없으면, 방문 후 실망할 확률이 높습니다. 디테일이 곧 퀄리티입니다.</p>
-    </section>
+ <section class="content-section" id="condition4">
+ <h2>4. 예약 시스템 — 체계 없이 운영되는 곳은 위험합니다</h2>
+ <p>전화 한 통으로 예약이 가능한 곳이 많지만, 이는 오히려 비체계적인 운영의 신호입니다. 제대로 된 <strong>염창 셔츠룸</strong>은 예약 시스템을 통해 인원 관리와 서비스 품질을 유지합니다. 예약 과정에서 응대가 불친절하거나 시스템이 없으면, 방문 후 실망할 확률이 높습니다. 디테일이 곧 퀄리티입니다.</p>
+ </section>
 
-    <section class="content-section" id="condition5">
-        <h2>5. 상황 적합성 — 모든 사람에게 맞는 곳은 없습니다</h2>
-        <p>초보는 "모든 사람이 추천하는 곳"을 찾지만, 당신의 상황에 맞는 곳을 찾아야 합니다. 염창 셔츠룸은 비즈니스 미팅용, 개인 해소용, 파티 등 목적이 다릅니다. <strong>목적에 맞는 업장의 콘셉트와 인테리어를 사전에 조사하세요.</strong> 무작정 방문은 시간과 비용 낭비입니다.</p>
-    </section>
+ <section class="content-section" id="condition5">
+ <h2>5. 상황 적합성 — 모든 사람에게 맞는 곳은 없습니다</h2>
+ <p>초보는 "모든 사람이 추천하는 곳"을 찾지만, 당신의 상황에 맞는 곳을 찾아야 합니다. 염창 셔츠룸은 비즈니스 미팅용, 개인 해소용, 파티 등 목적이 다릅니다. <strong>목적에 맞는 업장의 콘셉트와 인테리어를 사전에 조사하세요.</strong> 무작정 방문은 시간과 비용 낭비입니다.</p>
+ </section>
 
-    <section class="content-section">
-        <h2>자주 묻는 질문 (FAQ)</h2>
-        <div class="faq-item">
-            <h3>Q: 염창 셔츠룸에 처음 방문할 때 가장 주의할 점은?</h3>
-            <p>A: 직원 태도와 가격 투명성입니다. 초보는 분위기에만 집중하지만, 실질적 서비스와 비용 구조가 경험을 결정합니다. 반드시 예약 전에 확인하세요.</p>
-        </div>
-        <div class="faq-item">
-            <h3>Q: 리뷰를 믿어도 되나요?</h3>
-            <p>A: 리뷰는 참고용일 뿐입니다. 조작된 리뷰가 많으며, 개인의 주관적 경험에 불과합니다. 염창 셔츠룸의 경우, 직접 문의하거나 소규모 커뮤니티의 생생한 의견을 구하는 것이 더 정확합니다.</p>
-        </div>
-        <div class="faq-item">
-            <h3>Q: 가격대가 높으면 서비스가 좋나요?</h3>
-            <p>A: 반드시 그렇지는 않습니다. 가격은 브랜드 이미지나 시설 투자에 반영될 수 있지만, 서비스의 본질은 직원의 전문성과 태도입니다. 가격보다는 투명성과 일관성을 중시하세요.</p>
-        </div>
-    </section>
+ <section class="content-section">
+ <h2>자주 묻는 질문 (FAQ)</h2>
+ <div class="faq-item">
+ <h3>Q: 염창 셔츠룸에 처음 방문할 때 가장 주의할 점은?</h3>
+ <p>A: 직원 태도와 가격 투명성입니다. 초보는 분위기에만 집중하지만, 실질적 서비스와 비용 구조가 경험을 결정합니다. 반드시 예약 전에 확인하세요.</p>
+ </div>
+ <div class="faq-item">
+ <h3>Q: 리뷰를 믿어도 되나요?</h3>
+ <p>A: 리뷰는 참고용일 뿐입니다. 조작된 리뷰가 많으며, 개인의 주관적 경험에 불과합니다. 염창 셔츠룸의 경우, 직접 문의하거나 소규모 커뮤니티의 생생한 의견을 구하는 것이 더 정확합니다.</p>
+ </div>
+ <div class="faq-item">
+ <h3>Q: 가격대가 높으면 서비스가 좋나요?</h3>
+ <p>A: 반드시 그렇지는 않습니다. 가격은 브랜드 이미지나 시설 투자에 반영될 수 있지만, 서비스의 본질은 직원의 전문성과 태도입니다. 가격보다는 투명성과 일관성을 중시하세요.</p>
+ </div>
+ </section>
 
-    <footer class="footer-section">
-        <p>© 2023 염창 셔츠룸 인사이트. 본 가이드는 정보 제공 목적이며, 개별 업장의 서비스와 다를 수 있습니다. 모든 결정은 본인의 책임 하에 이루어져야 합니다.</p>
-    </footer>
+ <footer class="footer-section">
+ <p>© 2023 염창 셔츠룸 인사이트. 본 가이드는 정보 제공 목적이며, 개별 업장의 서비스와 다를 수 있습니다. 모든 결정은 본인의 책임 하에 이루어져야 합니다.</p>
+ </footer>
 </body>
 </html>
